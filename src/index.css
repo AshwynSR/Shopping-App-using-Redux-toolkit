@@ -1,0 +1,28 @@
+h1 {
+  line-height: 1.1;
+}
+
+.product-list {
+  display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(250px, 1fr)
+	)
+}
+
+.item-image {
+	max-width: 130px;
+	min-height: 150px;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+button {
+  margin: 10px 10px 10px 10px;
+}
+
+.product-detail {
+	max-width: 400px;
+	max-height: 800px;
+}
